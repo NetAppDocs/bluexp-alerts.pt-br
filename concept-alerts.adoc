@@ -1,0 +1,81 @@
+---
+sidebar: sidebar 
+permalink: concept-alerts.html 
+keywords: netapp, ontap, alert, capacity, performance, availability, security, protection, bluexp, bluexp alerts 
+summary: Os alertas do BlueXP  são um serviço que permite visualizar problemas ou riscos potenciais no seu ambiente NetApp ONTAP relacionados à capacidade, performance, disponibilidade e segurança. Com o serviço, você pode detalhar os detalhes usando o Gerenciador de sistema do ONTAP. 
+---
+= Saiba mais sobre os alertas do BlueXP 
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Os alertas do BlueXP  são um serviço que permite visualizar problemas ou riscos potenciais em seus ambientes ONTAP on-premises do NetApp usando o BlueXP  Connector padrão. Com o serviço, você pode detalhar os detalhes usando o Gerenciador de sistema do ONTAP.
+
+
+
+== O que você pode fazer com os alertas do BlueXP 
+
+O serviço de alertas do BlueXP  ajuda você a se manter informado sobre riscos ou riscos potenciais no ambiente de storage do ONTAP. O serviço mostra alguns alertas não-EMS e alguns alertas EMS. O serviço de alertas BlueXP  fornece informações sobre essas gravidades e áreas de impactos:
+
+* *Severidades*: Crítico, Aviso, Informativo
+* *Áreas de impactos*: Capacidade, desempenho, proteção, disponibilidade, segurança, configuração
+
+
+
+TIP: A opção notificações no canto superior direito da IU do BlueXP  monitora o status das operações que o BlueXP  está executando para ajudá-lo a identificar problemas que você precisa resolver. Você pode ter essas notificações enviadas para o seu e-mail. A opção notificações não inclui os alertas do serviço de alertas do BlueXP .
+
+
+
+== Benefícios do uso de alertas do BlueXP 
+
+Os alertas do BlueXP  oferecem os seguintes benefícios:
+
+* Receba alertas sobre seu storage do ONTAP nos clusters.
+* Exibir alertas na mesma IU do BlueXP  que você usa para outros serviços.
+* Faça drill nos alertas de clusters do ONTAP - inicie a partir de alertas do BlueXP  e veja detalhes no Gerenciador de sistemas do NetApp.
+
+
+
+
+== Custo
+
+A versão completa dos alertas do BlueXP  pode ser usada com uma licença do NetApp ONTAP.
+
+
+
+== Licenciamento
+
+O serviço de alertas do BlueXP  requer uma licença NetApp ONTAP 9.10 ou superior.
+
+Você não precisa ter uma licença de teste para este serviço.
+
+O serviço pode ser implantado apenas no modo padrão BlueXP  (público). Para obter detalhes, link:alerts-start-licenses.html["Configure o licenciamento"]consulte .
+
+
+
+== Como os alertas do BlueXP  funcionam
+
+O serviço de alertas do BlueXP  é um componente central do BlueXP . O serviço de alertas do BlueXP  monitora clusters do ONTAP e recebe dados de alerta do ONTAP.
+
+Os alertas do BlueXP  estão disponíveis apenas no ambiente SaaS do BlueXP . Ele não está disponível em uma IU do conetor local.
+
+
+
+== Ambientes de trabalho e fontes de dados compatíveis
+
+Use alertas do BlueXP  para verificar problemas nos seguintes ambientes de trabalho e fontes de dados.
+
+*Ambientes de trabalho suportados*
+
+É compatível com um ambiente de trabalho nas ou SAN ONTAP no local.
+
+Os ambientes de trabalho do Cloud Volumes ONTAP não são suportados no momento.
+
+*Fontes de dados suportadas*
+
+O serviço fornece alertas sobre certos eventos que ocorrem no ONTAP. Eles são uma combinação de EMS e alertas baseados em métricas.

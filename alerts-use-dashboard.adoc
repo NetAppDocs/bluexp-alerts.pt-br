@@ -1,0 +1,174 @@
+---
+sidebar: sidebar 
+permalink: alerts-use-dashboard.html 
+keywords: alerts, alerts dashboard, ontap, netapp, bluexp, cluster,capacity, protection, security 
+summary: O serviço de alertas do BlueXP  fornece informações gerais sobre a integridade do seu ambiente ONTAP. É possível identificar rapidamente clusters do ONTAP com baixa capacidade ou baixa performance, avaliar a extensão da disponibilidade, determinar a disponibilidade e identificar riscos de segurança. 
+---
+= Visualize riscos potenciais no storage ONTAP usando a página de lista de alertas
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+O serviço de alertas do BlueXP  fornece informações gerais sobre os riscos potenciais no seu ambiente ONTAP. É possível identificar rapidamente clusters do ONTAP com baixa capacidade ou baixa performance, avaliar a extensão da disponibilidade, determinar a disponibilidade e identificar riscos de segurança.
+
+O serviço de alertas BlueXP  fornece informações sobre essas gravidades e áreas de impactos:
+
+* *Severidades*: Crítico, Aviso, Informativo
+* *Áreas de impactos*: Capacidade, desempenho, disponibilidade, proteção, segurança, configuração
+
+
+
+
+== Alertas que você pode ver
+
+Aqui estão alguns dos alertas que o serviço exibe.
+
+A gravidade do EMS é mapeada para o BlueXP  alerta a gravidade do serviço das seguintes maneiras:
+
+[cols="40,40"]
+|===
+| Gravidade alerta EMS: | Gravidade do alerta do BlueXP : 
+
+
+| alerta ou emergência | crítico 
+
+
+| erro | Nenhum 
+
+
+| Baixo | aviso 
+
+
+| aviso | informativo 
+
+
+| informativo | informativo 
+|===
+.Lista de alertas
+[%collapsible]
+====
+Alertas de gravidade crítica:
+
+* O estado agregado não está online
+* Falha de disco
+* O tempo de atraso do SnapMirror é alto
+* Estado do volume offline
+* Violação percentual de volume usado
+
+
+Alertas EMS:
+
+* Servidor antivírus ocupado
+* Credenciais da AWS não inicializadas
+* Camada de nuvem inacessível
+* Disco fora de serviço
+* Fonte de alimentação do compartimento de disco descoberta
+* Fonte de alimentação de compartimentos de disco removida
+* Replicação de espelho FabricPool resync concluída
+* O limite de uso do espaço FabricPool quase foi atingido
+* Limite de utilização do espaço FabricPool atingido
+* Comandos da porta de destino FC excedidos
+* Falha no Giveback do pool de armazenamento
+* Interconexão HA desativada
+* LUN destruído
+* LUN offline
+* Falha na ventoinha da unidade principal
+* Ventoinha da unidade principal no estado de aviso
+* Máximo de sessões por utilizador excedido
+* O máximo de vezes aberto por ficheiro foi excedido
+* Switchover não planejado automático do MetroCluster desativado
+* Monitoramento MetroCluster
+* Conflito de nome NetBIOS
+* NFSv4 piscina dolorida esgotada
+* Pânico do nó
+* Espaço de volume raiz do nó baixo
+* Compartilhamento administrativo inexistente
+* Servidor antivírus não responsivo
+* Nenhum motor de digitalização registado
+* Sem ligação Vscan
+* Namespace NVMe destruído
+* Namespace NVMe offline
+* Namespace NVMe on-line
+* Período de carência da licença NVMe-of ativo
+* Período de carência de licença NVMe-of expirou
+* Início do período de carência da licença NVMe-of
+* Bateria do NVRAM fraca
+* Host de armazenamento de objetos não resolvível
+* Armazenamento de objetos Intercluster LIF para baixo
+* Incompatibilidade de assinatura do armazenamento de objetos
+* Memória do monitor QoS maximizada
+* Atividade de ransomware detetada
+* Falha na realocação do pool de storage
+* ONTAP Mediador adicionado
+* Mediador ONTAP não acessível
+* ONTAP Mediador inalcançável
+* ONTAP Mediador removido
+* READDIR timeout
+* Estado "ativo-ativo" de SAN alterado
+* Falha no batimento cardíaco do processador de serviço
+* Batimento cardíaco do processador de serviço interrompido
+* Processador de serviço offline
+* Processador de serviço não configurado
+* Falha na cópia de sombra
+* SFP no adaptador de destino FC que recebe baixa potência
+* SFP no adaptador de destino FC transmitindo baixa potência
+* Falha na ventoinha da prateleira
+* O certificado SMBC CA expirou
+* Certificado SMBC CA expirando
+* O certificado de cliente SMBC expirou
+* Certificado de cliente SMBC a expirar
+* Relação SMBC fora de sincronia
+* O certificado do servidor SMBC expirou
+* O certificado do servidor SMBC está expirando
+* Relação SnapMirror fora de sincronia
+* As fontes de alimentação do interrutor de armazenamento falharam
+* Monitoramento anti-ransomware da VM de storage
+* Interrupção da VM de armazenamento bem-sucedida
+* O sistema não funciona devido a falha da ventoinha da unidade principal
+* Demasiadas autenticações CIFS
+* Discos não atribuídos
+* Acesso de usuário não autorizado ao compartilhamento de administrador
+* Vírus detetado
+* Monitoramento de volume anti-ransomware
+* Redimensionamento automático do volume com êxito
+* Volume off-line
+* Volume restrito
+
+
+====
+Para obter detalhes sobre alertas do ONTAP, consulte a documentação do ONTAP e os insights do Gerenciador de sistemas em https://docs.netapp.com/us-en/ontap/concepts/insights-system-optimization-concept.html["O System Manager Insights sobre problemas de capacidade, segurança e configuração"^].
+
+
+
+== Veja problemas de storage do ONTAP
+
+.Passos
+. Na navegação à esquerda do BlueXP , selecione *Monitoramento* > *Alertas*.
++
+Após a descoberta, a página da lista Alertas mostra uma lista de alertas no seu ambiente ONTAP.
+
++
+Pode haver um atraso entre um evento acontecendo e os alertas do BlueXP  mostrando-o.
+
+. Na página da lista Alertas, você pode visualizar e executar qualquer um dos seguintes procedimentos:
++
+** Altere a ordem de classificação clicando na seta para cima ou para baixo de uma coluna.
+** Altere o filtro nas colunas para mostrar apenas as informações desejadas.
++
+
+TIP: Por exemplo, talvez você queira ver apenas os alertas relacionados à capacidade. Para fazer isso, clique no ícone de filtro na coluna Área de impactos, selecione *capacidade* e selecione *aplicar*.
+
++
+image:alerts-dashboard-capacity-filter.png["Página de alertas mostrando os filtros da área de impactos"]
+
+** Faça o download de um arquivo CSV contendo as informações de alertas.
++
+Você pode baixar até 1000 alertas. O arquivo inclui dados com base nos filtros que foram definidos.
+
+** Selecione um alerta e analise os detalhes do alerta nesse cluster. link://alerts-use-alerts.html["Veja os detalhes do alerta"]Consulte .
+
+
+

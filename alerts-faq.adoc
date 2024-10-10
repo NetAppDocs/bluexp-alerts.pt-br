@@ -1,0 +1,67 @@
+---
+sidebar: sidebar 
+permalink: alerts-faq.html 
+keywords: alerts faq, alerts frequently asked questions, bluexp, bluexp alert 
+summary: Esta FAQ de alertas do BlueXP  pode ajudar se você está apenas procurando uma resposta rápida para uma pergunta. 
+---
+= Perguntas frequentes sobre alertas do BlueXP 
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+Este FAQ pode ajudar se você está apenas procurando uma resposta rápida para uma pergunta.
+
+
+
+== Acesso aos alertas do BlueXP 
+
+*Qual é o URL de alertas do BlueXP ?* Para o URL, em um navegador, digite: https://console.bluexp.netapp.com/["https://console.bluexp.netapp.com/"^] Para acessar o console do BlueXP .
+
+*Você precisa de uma licença para usar alertas do BlueXP ?*
+
+O serviço de alertas do BlueXP  requer uma licença NetApp ONTAP 9.10 ou superior. A licença não precisa ser inserida na carteira digital BlueXP .
+
+Você não precisa ter uma licença de teste para este serviço.
+
+*Como ativar os alertas do BlueXP ?* Os alertas do BlueXP  não exigem capacitação. A opção de alertas é ativada automaticamente na navegação esquerda do BlueXP .
+
+Para começar, quando você usar o BlueXP  Connector, ele incluirá os recursos apropriados para o serviço.
+
+**Os alertas do BlueXP  estão disponíveis nos modos padrão, restrito e privado?** O serviço pode ser implantado somente no padrão BlueXP  (público).
+
+Para obter uma explicação sobre esses modos em todos os serviços BlueXP , https://docs.netapp.com/us-en/bluexp-setup-admin/concept-modes.html["Modos de implantação do BlueXP "^] consulte .
+
+**Como as permissões de acesso são tratadas?** Somente os administradores da organização do BlueXP  podem iniciar o serviço de alertas do BlueXP  e descobrir workloads (porque isso envolve o compromisso com o uso de um recurso).
+
+Os alertas são exibidos aos usuários conetados, dependendo do acesso ao recurso do cluster nessa organização do BlueXP .
+
+https://docs.netapp.com/us-en/bluexp-setup-admin/concept-netapp-accounts.html["Saiba mais sobre as organizações BlueXP "].
+
+
+
+== Ver alertas
+
+**Quanto tempo preciso esperar antes de começar a receber alertas?**
+
+Aguarde, no máximo, 15 minutos para a descoberta inicial e, depois disso, um máximo de 5 minutos para que os alertas apareçam. Isso varia de alerta para alerta.
+
+**Por que não consigo ver os alertas do ONTAP usando o modo direto sem um conetor BlueXP ?*
+
+Os alertas do BlueXP  estão disponíveis apenas com o conetor BlueXP  padrão no local. O uso do modo direto não monitora os clusters e não exibe os alertas.
+
+**Por que alguns alertas estão desaparecendo da página da lista de alertas?**
+
+O recurso de alerta mantém alguns alertas em um estado Ativo e os fecha depois que a condição de contador é atendida ou um período de tempo é atingido. Isso varia de alerta para alerta.
+
+Para ver todos os alertas, selecione o filtro da coluna Status e selecione a opção fechada.
+
+
+
+== Exibição de informações
+
+**Qual é a melhor resolução do dispositivo?** A resolução recomendada do dispositivo para alertas BlueXP  é 1920x1080 ou melhor.
+
+**Qual navegador devo usar?** Qualquer navegador moderno funcionará.
