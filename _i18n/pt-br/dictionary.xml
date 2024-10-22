@@ -244,8 +244,6 @@
   <block id="82cf93c6b22e730b302286dee304e8cc" category="paragraph">A versão completa dos alertas do BlueXP  pode ser usada com uma licença do NetApp ONTAP.</block>
   <block id="0b9c6eef4e3d3a222eb04e910d252339" category="section-title">Licenciamento</block>
   <block id="1b083639d38de1b116aea6c5558968ec" category="paragraph">O serviço de alertas do BlueXP  requer uma licença NetApp ONTAP 9.10 ou superior.</block>
-  <block id="e907b41f5f3d7332bee5a43fbbf78a08" category="inline-link-macro">Configure o licenciamento</block>
-  <block id="d69945d07ffe69d68b278fa3f6ee11ac" category="paragraph">O serviço pode ser implantado apenas no modo padrão BlueXP  (público). Para obter detalhes, <block ref="271bc4c83b3d27b2a7fc60eb23418118" category="inline-link-macro-rx"></block>consulte .</block>
   <block id="55a90d444e30ddc01cd8a8da27cd9018" category="section-title">Como os alertas do BlueXP  funcionam</block>
   <block id="3e552726fea4952e3fd397f2cbf69243" category="paragraph">O serviço de alertas do BlueXP  é um componente central do BlueXP . O serviço de alertas do BlueXP  monitora clusters do ONTAP e recebe dados de alerta do ONTAP.</block>
   <block id="78097856f6f945c9619179338ebbf597" category="paragraph">Os alertas do BlueXP  estão disponíveis apenas no ambiente SaaS do BlueXP . Ele não está disponível em uma IU do conetor local.</block>
@@ -299,4 +297,5 @@
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">Notas de lançamento</block>
   <block id="17b76c30a93a18ec82fdbf45ed64d83a" category="sidebar">Veja possíveis riscos no storage ONTAP</block>
   <block id="167683e364859c21a89f3dbb8bbd29b4" category="sidebar">Exibir alertas no ambiente de storage</block>
+  <block id="83e69dcb76418af8dc10c3db810ded80" category="paragraph">O serviço pode ser implantado apenas no modo padrão BlueXP  (público).</block>
 </blocks>
