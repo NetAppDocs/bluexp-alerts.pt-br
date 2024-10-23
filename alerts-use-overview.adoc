@@ -12,8 +12,8 @@ summary: Com os alertas do BlueXP , você pode visualizar a integridade do work
 
 
 [role="lead"]
-Com os alertas do BlueXP , você pode visualizar problemas de storage e ver detalhes com links diretamente para o Gerenciador do sistema.
+Com os alertas do BlueXP , você pode visualizar problemas de storage e ver detalhes com links diretamente para o Gerenciador de sistemas do ONTAP.
 
 * link:alerts-use-dashboard.html["Visualize problemas de armazenamento ou riscos potenciais na página da lista Alertas"].
-* link:alerts-use-alerts.html["Veja os detalhes do alerta que estão vinculados no System Manager"]
+* link:alerts-use-alerts.html["Veja os detalhes do alerta que estão vinculados no Gerenciador do sistema do ONTAP"]
 

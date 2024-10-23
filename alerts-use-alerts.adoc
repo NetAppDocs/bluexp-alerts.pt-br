@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: alerts-use-alerts.html 
 keywords: alerts, ontap, netapp, system manager, bluexp 
-summary: Com os alertas do BlueXP , você pode visualizar os alertas associados ao seu ambiente de storage do ONTAP e detalhar os detalhes vinculados ao Gerenciador de sistemas do BlueXP . 
+summary: Com os alertas do BlueXP , você pode visualizar os alertas associados ao seu ambiente de storage do ONTAP e detalhar os detalhes vinculados ao Gerenciador de sistemas do ONTAP. 
 ---
 = Veja os detalhes do alerta em seu ambiente de storage da ONTAP
 :hardbreaks:
@@ -28,14 +28,14 @@ image:alerts-detail.png["Detalhes do alerta"]
 
 
 
-== Exibir detalhes sobre o cluster no Gerenciador de sistema do BlueXP 
+== Exibir detalhes sobre o cluster no Gerenciador de sistema do ONTAP
 
 . Na página da lista Alertas, selecione um alerta.
 . No alerta, clique no nome do cluster na parte superior da página.
 +
-O Gerenciador de sistema do BlueXP  agora mostra informações sobre o cluster.
+O Gerenciador de sistema do ONTAP agora mostra informações sobre o cluster.
 
 +
-image:alerts-system-manager-cluster.png["Gerenciador do sistema BlueXP  mostrando informações do cluster"]
+image:alerts-system-manager-cluster.png["Gerenciador do sistema ONTAP mostrando informações do cluster"]
 
 
