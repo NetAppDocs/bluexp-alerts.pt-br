@@ -60,7 +60,6 @@
   <block id="a66b5f7e17e36a58b03ec77382eb6743" category="list-text">Um usuário do BlueXP  nessa organização com o administrador da organização Privileges para descobrir recursos</block>
   <block id="801e5ac526198ee67b36c61b75c65eab" category="inline-link">Requisitos padrão do BlueXP </block>
   <block id="5b4e347dbf978618d47c067b87ad3fe2" category="list-text"><block ref="5b4e347dbf978618d47c067b87ad3fe2" category="inline-link-rx"></block></block>
-  <block id="e9b7b72938a53a4398858e7a161efbfb" category="summary">Comece a usar o serviço de alertas do NetApp BlueXP  em alguns passos.</block>
   <block id="4693ecf07b719f1a075e0e08b806e1d6" category="doc">Início rápido para alertas BlueXP </block>
   <block id="6d3b1e3c658d935abf3a5e7434bd4c1b" category="paragraph">Aqui está uma visão geral das etapas necessárias para começar a usar os alertas do BlueXP . Os links em cada etapa levam você a uma página que fornece mais detalhes.</block>
   <block id="06c2cea18679d64399783748fa367bdd" category="inline-image-macro">Um</block>
@@ -200,8 +199,6 @@
   <block id="787c13bd5678ea2fd13caed9c3d7f793" category="list-text">Redimensionamento automático do volume com êxito</block>
   <block id="70e7847ce31f3a07ce7dbe2cac0c55bf" category="list-text">Volume off-line</block>
   <block id="d963b659cc2c03f1af4ded1f17740e4f" category="list-text">Volume restrito</block>
-  <block id="e60fdbc6a294498300f49aa127139a42" category="inline-link">O System Manager Insights sobre problemas de capacidade, segurança e configuração</block>
-  <block id="aa234240d0a0cda8353d19805476de1b" category="paragraph">Para obter detalhes sobre alertas do ONTAP, consulte a documentação do ONTAP e os insights do Gerenciador de sistemas em<block ref="b77ce041c81545bf6290dc1fe3f366a7" category="inline-link-rx"></block>.</block>
   <block id="62ee36e144821eacbed3c81b0f0497c8" category="section-title">Veja problemas de storage do ONTAP</block>
   <block id="069f2dbaf4ab6cd3493075c1ed095e12" category="paragraph">Após a descoberta, a página da lista Alertas mostra uma lista de alertas no seu ambiente ONTAP.</block>
   <block id="c4e8a37d21324f2e04c75f3371485f1f" category="paragraph">Pode haver um atraso entre um evento acontecendo e os alertas do BlueXP  mostrando-o.</block>
@@ -229,7 +226,6 @@
   <block id="89658a5893663786a5a3b0365a186901" category="paragraph">Os alertas do BlueXP  oferecem os seguintes benefícios:</block>
   <block id="f7e430f46106032cfbe3b93ecd7ffbf8" category="list-text">Receba alertas sobre seu storage do ONTAP nos clusters.</block>
   <block id="c036c9564723f87e6682ea3f542c999a" category="list-text">Exibir alertas na mesma IU do BlueXP  que você usa para outros serviços.</block>
-  <block id="811073dacb65f03c311b21e5d5357881" category="list-text">Faça drill nos alertas de clusters do ONTAP - inicie a partir de alertas do BlueXP  e veja detalhes no Gerenciador de sistemas do NetApp.</block>
   <block id="20b4f77bd00b4f63a49ec8e08f3bf6a6" category="section-title">Custo</block>
   <block id="82cf93c6b22e730b302286dee304e8cc" category="paragraph">A versão completa dos alertas do BlueXP  pode ser usada com uma licença do NetApp ONTAP.</block>
   <block id="0b9c6eef4e3d3a222eb04e910d252339" category="section-title">Licenciamento</block>
@@ -297,6 +293,10 @@
   <block id="3108a0619eec0e2ef9c6c5bd796bbf0d" category="paragraph">É possível identificar rapidamente clusters do ONTAP com baixa capacidade ou baixa performance, avaliar a extensão da disponibilidade e identificar riscos de segurança. Você pode visualizar alertas relacionados a capacidade, performance, proteção, disponibilidade, segurança e configuração.</block>
   <block id="907b4f5ff0a11b28375c092b0b876c3e" category="section-title">Detalhes dos alertas</block>
   <block id="2c132bb868e25bdbc509ab83d2436d71" category="paragraph">Você pode detalhar os detalhes do alerta e encontrar recomendações.</block>
-  <block id="b361027502c50a2e2c7efbe96a5720bf" category="section-title">Exibir detalhes do cluster vinculados ao System Manager</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">O que há de novo</block>
+  <block id="9ba3a5a376a4241ee4847ae13742a741" category="section-title">Exibir detalhes do cluster vinculados ao Gerenciador de sistema do ONTAP</block>
+  <block id="a4598a7400565176f635033fb26b11d1" category="summary">Comece a usar o serviço de alertas do BlueXP  em alguns passos.</block>
+  <block id="79f36a1cf2d28dc09a5c06d96f5fc526" category="inline-link">O ONTAP System Manager Insights sobre problemas de capacidade, segurança e configuração</block>
+  <block id="b433a03cbe41f57ebb306c3f7c73f769" category="paragraph">Para obter detalhes sobre alertas do ONTAP, consulte a documentação do ONTAP e os insights do Gerenciador de sistemas do ONTAP em<block ref="54212393114a0de7994bf970936414f9" category="inline-link-rx"></block>.</block>
+  <block id="5dd402ee76aade36a9da6304ebc2bd25" category="list-text">Faça drill nos alertas de clusters do ONTAP - inicie a partir de alertas do BlueXP  e veja detalhes no Gerenciador de sistemas do ONTAP.</block>
 </blocks>
